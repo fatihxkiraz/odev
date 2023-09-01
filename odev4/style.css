@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(270, 20%, 96%);
+    font-family:'Rubik', sans-serif;;
+    font-size: 16px;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.telefon{
+    width: 320px;
+    height: 730px;
+    border: 10px solid white;
+    border-radius: 32px;
+    margin-top: 200px;
+    margin-left: -15px;
+    box-shadow: 0 10px 20px hsl(206, 6%, 79%);
+    background-color: hsl(270, 20%, 96%);
+
+}
+
+.header{
+    height: 90px;
+    background: linear-gradient(to right, hsl(264,100%,61%),hsl(293,100%,63%));
+    border-radius: 20px 20px 10px 10px;
+
+}
+
+.avatar img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 2px;
+    border: 2px solid white;
+}
+
+.kisi{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+
+}
+
+.name{
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.durum{
+    font-size: 14px;
+    color: white;
+    opacity: 0.5;
+}
+
+.mesajlar{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px 10px;
+    font-size: 12px;
+    border-radius: 10px ;
+    
+}
+
+.text1{
+    background-color: hsl(311, 100%, 94%) ;
+    max-width: 50%;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 10px 20px 20px 0px;
+    color: hsl(293, 100%, 63%);
+}
+
+.images{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.images img{
+    width: 70px;
+    padding: 5px 7px;
+    border-radius: 25%;
+    cursor: pointer;
+}
+
+.text2{
+    max-width: 50%;
+    width: fit-content;
+    display: flex;
+    align-items: flex-end;
+    margin-left:200px;
+    color: hsl(271, 15%, 43%);
+    background-color: white;
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    margin-top: 7px;
+    margin-right: 5px;
+    justify-content: flex-end;
+    border-radius: 20px 10px 0px 20px;
+}
+
+.box {
+    max-width: 50%;
+    background: linear-gradient(to right,hsl(293,100%,63%), hsl(264,100%,61%));
+    padding: 5px 25px 5px 15px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px 20px 20px 0px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+form{
+    display: inline-flex;
+    margin-top: 5px;
+    border: 0px solid white;
+}
+
+input {
+    width: 100%;
+    padding: 20px 25px 15px;
+    border-radius: 35px;
+    border: 0px;
+    
+}
+
+.sendlogo{
+    font-size: 30px;
+    color: white;
+    background-color: hsl(271, 15%, 43%);
+    border-radius: 50%;
+    padding: 0px 11px;
+    height: 36px;
+    margin-left: -50px;
+    margin-top: 8px;
+}
+
+.description-head,
+.description-text {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.description-head {
+  color: hsl(271, 36%, 24%);
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.description-text {
+  color: hsl(270, 7%, 64%);
+  font-size: 20px;
+  width: 70%;
+  margin: auto;
+  font-weight: normal;
+}
+
+.purplebox {
+    background-image: linear-gradient(
+      to top left,
+      hsl(264, 100%, 61%),
+      hsl(293, 100%, 63%)
+    );
+    width: 50%;
+    height: 400px;
+    align-self: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0 0 1000px 0px;
+  }
+  
+  .greybox {
+    background-color: hsl(0, 14%, 91%);
+    width: 50%;
+    height: 400px;
+    align-self: flex-start;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border-radius: 1000px 0px 0px 0px;
+  }
+
+@media only screen and (min-width: 865px){
+    section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .telefon {
+        width: 20%;
+        padding: 0.5%;
+        margin-top: 10px;
+    }
+    
+    .description{
+        width: 35%;
+        text-align: center;
+        align-items: flex-start;
+        margin-left: 5%;
+    }
+    .description-head {
+        
+        
+        font-size: 50px;
+      }
+      
+    .purplebox {
+        width: 25%;
+        border-radius: 0 0 1000px 1000px;
+        height: 550px;
+      }
+    
+      .greybox {
+        width: 25%;
+        height: 550px;
+      }
+}
