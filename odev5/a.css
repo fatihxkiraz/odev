@@ -1,0 +1,156 @@
+body {
+    font-size: 16px;
+    color: #363636;
+    font-family: 'Roboto', sans-serif;
+    vertical-align: baseline;
+    line-height: 1.7;
+    font-weight: 400;
+    overflow-x: hidden;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  p {
+    margin: 0 0 26px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Poppins', sans-serif;
+    color: #1c1b1b;
+    margin: 0 0 26px;
+    font-weight: 700;
+  }
+  h1 {
+    color: #0a0a0a;
+    font-size: 54px;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h3 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  h4 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  a {
+    color: #106eea;
+    transition: all 0.3s ease;
+    text-decoration: none !important;
+    outline: none !important;
+  }
+  a:active,
+  a:hover {
+    text-decoration: none;
+    outline: 0 none;
+    color: #106eea;
+  }
+  ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  .uppercase {
+    text-transform: uppercase;
+  }
+  .clear {
+    clear: both;
+  }
+  ::-moz-selection {
+    background: #106eea;
+    text-shadow: none;
+    color: #ffffff;
+  }
+  ::selection {
+    background: #106eea;
+    text-shadow: none;
+    color: #ffffff;
+  }
+  .width-unset {
+    width: unset !important;
+  }
+  .white-bg {
+    background-color: #ffffff;
+  }
+  .primary-bg {
+    background: #106eea;
+  }
+  .secondary-bg {
+    background: #228bfd;
+  }
+  .title-bg {
+    background: #1c1b1b;
+  }
+  .gray-bg {
+    background: #f1f6fc;
+  }
+  .gray-bg2 {
+    background: #fbfbfb;
+  }
+  .gray-bg3 {
+    background: #fafafa;
+  }
+  .gray-bg4 {
+    background: #f8f8f8;
+  }
+  .gray-bg5 {
+    background: #f9f9f9;
+  }
+  .gray-bg6 {
+    background: #f7f7f7;
+  }
+  .gray-bg7 {
+    background: #f2e1e1;
+  }
+  .blue-bg {
+    background: #1c3988;
+  }
+  .blue-color {
+    color: #1c3988;
+  }
+  .red-color {
+    color: #ec4c6f;
+  }
+  .red-bg {
+    background: #ec4c6f;
+  }
+  .red-bg2 {
+    background: #d83030;
+  }
+  .red-color2 {
+    color: #d83030;
+  }
+  .green-bg {
+    background: #67c27c;
+  }
+  .green-color {
+    color: #67c27c;
+  }
+  .law-color {
+    color: #b1976b;
+  }
+  .law-bg {
+    background: #b1976b;
+  }
+  .navy-color {
+    color: #282e3f;
+  }
+  .navy-bg {
+    background: #282e3f;
